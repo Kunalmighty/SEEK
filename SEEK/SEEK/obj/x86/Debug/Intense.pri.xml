@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Intense" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Intense">
+				<NamedResource name="Intense.xr.xml" uri="ms-resource://Intense/Files/Intense/Intense.xr.xml">
+					<Candidate type="Path">
+						<Value>Intense\Intense.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Intense.rd.xml" uri="ms-resource://Intense/Files/Intense/Properties/Intense.rd.xml">
+						<Candidate type="Path">
+							<Value>Intense\Properties\Intense.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="AccentBrushes.xbf" uri="ms-resource://Intense/Files/Intense/Themes/AccentBrushes.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Brushes.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Brushes.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Converters.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Converters.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Frames.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Frames.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Generic.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GridView.xbf" uri="ms-resource://Intense/Files/Intense/Themes/GridView.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Intense.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Intense.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Navigation.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Navigation.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Typography.xbf" uri="ms-resource://Intense/Files/Intense/Themes/Typography.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="UI">
+					<ResourceMapSubtree name="Controls">
+						<NamedResource name="MasterDetailNavigationPage.xbf" uri="ms-resource://Intense/Files/Intense/UI/Controls/MasterDetailNavigationPage.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="MasterNavigationPage.xbf" uri="ms-resource://Intense/Files/Intense/UI/Controls/MasterNavigationPage.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Intense">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="ItemAlreadyInCollection" uri="ms-resource://Intense/Intense/Resources/ItemAlreadyInCollection">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Item cannot be in more than one collection</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoadPageFailed" uri="ms-resource://Intense/Intense/Resources/LoadPageFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Failed to load Page {0}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoFrameAssigned" uri="ms-resource://Intense/Intense/Resources/NoFrameAssigned">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>No frame assigned</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

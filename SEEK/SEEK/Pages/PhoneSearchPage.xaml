@@ -1,0 +1,92 @@
+﻿<Page
+    x:Class="SEEK.Pages.PhoneSearchPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SEEK.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        
+            <ScrollViewer>
+
+            <StackPanel VerticalAlignment="Center" 
+                            Margin="0,0,0,140">
+
+                <TextBlock
+                               Text="Please do not leave any field blank!"
+                               Margin="5"/>
+
+                <TextBlock
+                               Text="Operating System:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="OSAns" Margin="5,0" />
+
+            <TextBlock
+                               Text="Performance Tier:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="PerAns" Margin="5,0" />
+
+
+            <TextBlock
+                               Text="RAM:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="RAMAns" Margin="5,0" />
+
+            <TextBlock
+                               Text="Screen Size"
+                               Margin="5"/>
+
+                <ComboBox x:Name="SSAns" Margin="5,0" />
+          
+
+                <TextBlock
+                               Text="Screen Resolution:"
+                               Margin="5"/>
+
+                <ComboBox x:Name="SRAns" Margin="5,0" />
+
+            
+                <TextBlock
+                               Text="Display type:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="DTAns" Margin="5,0" />
+            
+                <TextBlock
+                               Text="Camera Performance Tier:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="CamTierAns" Margin="5,0" />
+
+            <TextBlock
+                               Text="Battery performance Tier:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="BatTierAns" Margin="5,0" />
+
+            <TextBlock
+                               Text="Fingerprint scanner:"
+                               Margin="5"/>
+
+            <ComboBox x:Name="FingerAns" Margin="5,0" />
+
+            <Button Content="I Seek!" 
+                    HorizontalAlignment="Center" 
+                    Width="70"
+                    Click="Button_ClickSeek"/>
+
+        </StackPanel>
+
+        </ScrollViewer>
+
+
+
+    </Grid>
+    
+</Page>

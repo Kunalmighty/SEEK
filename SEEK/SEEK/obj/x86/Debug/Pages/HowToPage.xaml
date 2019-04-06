@@ -1,0 +1,25 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="SEEK.Pages.HowToPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SEEK.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer x:ConnectionId='2' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                              >
+        <StackPanel>
+
+            <TextBlock Text="How does 'Fetch' work?" Style="{StaticResource TitleTextBlockStyle}" />
+            
+            <TextBlock>
+                <Run Text="Sometimes,  " FontWeight="Bold" />
+                <LineBreak />
+              
+                <LineBreak />
+                 
+            </TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+

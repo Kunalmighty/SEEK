@@ -1,0 +1,99 @@
+﻿<Page
+    x:Class="SeekAdmin.EditProduct"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SeekAdmin"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <ScrollViewer>
+            <StackPanel>
+
+                <TextBlock
+                               Text="Name"
+                               Margin="5"/>
+                <TextBox Name="NameInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Brand"
+                               Margin="5"/>
+                <TextBox Name="BrandInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Screen Size"
+                               Margin="5"/>
+                <TextBox Name="ScreenSizeInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Display Type"
+                               Margin="5"/>
+                <TextBox Name="DisplayTypeInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Display Resolution"
+                               Margin="5"/>
+                <TextBox Name="DisplayResolutionInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="OS"
+                               Margin="5"/>
+                <TextBox Name="OSInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="RAM"
+                               Margin="5"/>
+                <TextBox Name="RAMInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Price New"
+                               Margin="5"/>
+                <TextBox Name="PriceNewInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Price Used"
+                               Margin="5"/>
+                <TextBox Name="PriceUsedInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Performance Tier"
+                               Margin="5"/>
+                <TextBox Name="PerformanceTierInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Camera Performance Tier"
+                               Margin="5"/>
+                <TextBox Name="CameraPerformanceTierInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Fingerprint Scanner"
+                               Margin="5"/>
+                <TextBox Name="FingerprintScannerInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Battery Tier"
+                               Margin="5"/>
+                <TextBox Name="BatteryTierInput" Margin="5" MinWidth="300"></TextBox>
+
+                <TextBlock
+                               Text="Best Purchase"
+                               Margin="5"/>
+                <TextBox Name="BestPurchaseInput" Margin="5" MinWidth="300"></TextBox>
+
+                <Button 
+                    Content="Back" 
+                    Margin="5,20,5,5"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Width="120"
+                    Click="Button_ClickBack"/>
+
+
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

@@ -1,0 +1,46 @@
+﻿<NavigationItem xmlns="using:Intense.Presentation"                            
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:pages="using:SEEK.Pages"
+                x:Class="SEEK.NavigationStructure"
+                DisplayName="SEEK"
+                Icon="">
+    <NavigationItem DisplayName="Sign In" Description="Start here!" Icon="" PageType="pages:WelcomePage" />
+
+    <NavigationItem DisplayName="Start New Search!" Description="Search for your next purchase! What do you SEEK?" Icon="">
+        <NavigationItem DisplayName="Phones/ Tablets" PageType="pages:PhoneSearchPage"/>
+        <NavigationItem DisplayName="Laptops" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Cameras" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Cars" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Accessories" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Smartwatches" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Shoes" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Services" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Movies" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Search by Product Name" Icon="" PageType="pages:QuickStartPage" />
+    </NavigationItem>
+
+    <NavigationItem DisplayName="Recommended Products" Description="View the products we think you'll like, based on your usage." Icon=""  PageType="pages:WelcomePage"/>
+
+    <NavigationItem DisplayName="View Bookmarks" Description="View your bookmarked products." Icon=""  PageType="pages:WelcomePage">
+        <NavigationItem DisplayName="Phones/ Tablets" PageType="pages:PhoneSearchPage"/>
+        <NavigationItem DisplayName="Laptops" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Cameras" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Cars" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Accessories" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Services" PageType="pages:ComingSoonPage" />
+        <NavigationItem DisplayName="Movies" PageType="pages:ComingSoonPage" />
+     </NavigationItem>
+
+    <NavigationItem DisplayName="New Releases" Description="Feast your mind on the latest and greatest!" Icon=""  PageType="pages:NewReleases"/>
+
+    <NavigationItem DisplayName="Fetch For Me!" Description="For a more personal touch." Icon=""  PageType="pages:HowToPage"/>
+
+   <NavigationItem DisplayName="Settings" Description="Change your SEEK configuration" Icon="">
+        <NavigationItem DisplayName="Appearance" PageType="pages:AppearancePage" />
+        <NavigationItem DisplayName="Notifications" PageType="pages:Notifications" />
+        <NavigationItem DisplayName="Accounts" PageType="pages:AppearancePage" />
+    </NavigationItem>
+    
+</NavigationItem>
+
+    

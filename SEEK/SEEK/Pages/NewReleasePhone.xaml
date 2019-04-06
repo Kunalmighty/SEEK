@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="SEEK.Pages.NewReleasePhone"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SEEK.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel>
+
+           <TextBlock
+                               Text="Product name:"
+                               Margin="5"/>
+
+            <TextBox IsEnabled="False" x:Name="txtItem" Margin="5,0" 
+                                      />
+
+            <TextBlock
+                               Text="Price (New)"
+                               Margin="5"/>
+
+            <TextBox IsEnabled="False" x:Name="txtOp1" Margin="5,0" 
+                                />
+
+
+            <TextBlock
+                               Text="Price (Used)"
+                               Margin="5"/>
+
+            <TextBox IsEnabled="False" x:Name="txtOp2" Margin="5,0" />
+
+            <TextBlock
+                               Text="Best Purchase Option (Copy and paste)"
+                               Margin="5"/>
+
+            <TextBox IsEnabled="True" x:Name="txtOp3" Margin="5,0" Tapped="txtOp3_Tapped" 
+                                   />
+
+
+            <Button Content="Bookmark" 
+                    Margin="5,20,5,5"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Bottom"
+                    Width="120"
+                    Click="Button_ClickBookmark"/>
+            <Button Content="Back" 
+                    Margin="5,20,5,5"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Bottom"
+                    Width="120"
+                    Click="Button_ClickBack"/>
+            
+
+        </StackPanel>
+
+    </Grid>
+</Page>

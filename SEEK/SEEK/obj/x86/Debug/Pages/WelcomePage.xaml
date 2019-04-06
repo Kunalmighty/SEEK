@@ -1,0 +1,26 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="SEEK.Pages.WelcomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SEEK.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer x:ConnectionId='2' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                              >
+        <StackPanel>
+            
+            <TextBlock Text="Thank you for installing SEEK!"/>
+            <TextBlock Text="Sign In through Twitter!" Style="{StaticResource TitleTextBlockStyle}" />
+
+            <Button x:ConnectionId='3' Name="ButtonLogin"
+                    Margin="5,5,5,5"
+                                              
+                    Visibility="Visible">Sign in</Button>
+
+
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+
